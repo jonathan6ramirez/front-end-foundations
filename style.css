@@ -31,11 +31,11 @@ section.alternate-background {
   background-color: #a35766;
   color: #ecdbc9;
 }
-/*
+
 main img {
   width: 100%;
   align-self: center;
-}*/
+}
 
 /* ---  Groups & Items --- */
 
@@ -144,10 +144,10 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 25px;
+    height: 60px;
   }
   header a {
-    font-size: 15px;
+    font-size: 25px;
     align-self: center;
   }
   header nav {
@@ -155,7 +155,7 @@ footer p {
     padding-bottom: 20px;
   }
   header .logo {
-    font-size: 25px;
+    font-size: 40px;
     align-self: center;
     padding-bottom: 20px;
   }
@@ -177,8 +177,10 @@ footer p {
     display: flex;
     align-items: center;
   }
-  main img {
-    width: 60%;
+  section.rowJoin {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 
   about-div {
@@ -204,53 +206,67 @@ footer p {
   }
   div.right-side {
     margin: 20px;
+    width: 30%;
   }
   div.row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
+
+  /*-----Join---------*/
+  #joinImg {
+    height: auto;
+    width: 65%;
+  }
+  
   /*-----Download-----*/
   #download-container {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    border: 2px solid darkblue;
-  }
-  #download-column-img {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    border: 5px solid darkred;
-    
+    flex-direction: row;
   }
-  #download-column-img img {
-    width: 25%;
-    justify-content: center;
-    align-self: center;
-    padding-left: 500px;
-  }
-
   #download-column {
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    border: 3px solid darkgreen;
+    width: 100%;
+    flex-basis: 100%;
+    justify-content: space-between;
+    margin: 10px;
   }
+  #download-cloumn-img img{
+    width: 5%;
+    height: 1%;
+  }
+
   /*----Blog----*/
   #blog-row {
     display: flex;
     flex-direction: row;
     width: 100%;
+    flex-basis: 100%;
+    justify-content: space-between;
+  }
+  #blog-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
   }
   #blog {
     width: auto;
   }
 
   #blog img {
-    height: fit-content;
-    width: 10px;
-
+    width: 98%;
+  }
+  #blog-text {
+    margin: 10px;
+    padding-bottom: 20px;
+  }
+  #blog-text h3 {
+    font-size: 20px;
+  }
+  #blog-text p {
+    font-size: 20px;
   }
 }
