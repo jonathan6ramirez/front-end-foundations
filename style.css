@@ -234,9 +234,8 @@ footer p {
     justify-content: space-between;
     margin: 10px;
   }
-  #download-cloumn-img img{
-    width: 5%;
-    height: 1%;
+  #download-column-img {
+    width: 100%;
   }
 
   /*----Blog----*/
